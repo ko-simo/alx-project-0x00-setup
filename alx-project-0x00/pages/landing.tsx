@@ -16,9 +16,10 @@ const Landing: React.FC = () => {
 
       {/* Buttons Section */}
       <div className="mt-10 space-x-4">
-        <Button title="Small Rounded" styles="bg-blue-500 text-sm rounded-sm" />
-        <Button title="Medium Rounded" styles="bg-green-500 text-base rounded-md" />
-        <Button title="Large Rounded" styles="bg-red-500 text-lg rounded-full" />
+          <Button title="Small Rounded" styles="bg-blue-500 text-sm rounded-sm" />
+          <Button title="Medium Rounded" styles="bg-green-500 text-base rounded-md" />
+          <Button title="Large Rounded" styles="bg-red-500 text-lg rounded-full" />
+          <Button title="Rounded LG" styles="bg-purple-500 text-lg rounded-lg" />
       </div>
     </div>
   );
